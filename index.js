@@ -6,6 +6,6 @@ app.get('/', function(req, res) {
   console.log('Time: ', Date.now());
 });
 
-app.listen(8080, function() {
+app.listen(80, function() {
   console.log('Listening: ', Date.now());
 });
